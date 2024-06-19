@@ -18,7 +18,7 @@ namespace otogaleriuygulamasyonu
             InitializeComponent();
         }
         OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OleDb.12.0; Data Source=" + Application.StartupPath + "\\otouygulama.accdb");
-        DataTable dt = new DataTable();dfgdf
+        DataTable dt = new DataTable();
         DataTable dt1 = new DataTable();
         DataTable dt2 = new DataTable();
         void doldur()
